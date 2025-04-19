@@ -1,6 +1,14 @@
 # CodingBiceps - Your Digital Transformation Partner 🚀
 
-![CodingBiceps](https://your-image-url.com/logo.png)
+<div align="center">
+  <img src="coding biceps.png" alt="CodingBiceps Logo" width="200"/>
+  
+  ### *Empowering Businesses Through Technology* 💪
+  
+  [![Website](https://img.shields.io/badge/Website-codingbiceps.com-blue)](https://codingbiceps.com)
+  [![WhatsApp](https://img.shields.io/badge/WhatsApp-Connect-green)](https://wa.me/yournumber)
+  [![Email](https://img.shields.io/badge/Email-contact%40codingbiceps.com-red)](mailto:contact@codingbiceps.com)
+</div>
 
 CodingBiceps is a cutting-edge technology consulting and services company that helps businesses transform their digital presence through innovative solutions, expert engineering, and strategic marketing.
 
@@ -52,6 +60,13 @@ CodingBiceps is a cutting-edge technology consulting and services company that h
 - React Router for navigation
 - Axios for API integration
 
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
+</div>
+
 ### Backend
 - Node.js & Express.js
 - MongoDB with Mongoose
@@ -59,6 +74,13 @@ CodingBiceps is a cutting-edge technology consulting and services company that h
 - Cloudinary for media storage
 - Nodemailer for email services
 - RazorPay integration for payments
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"/>
+</div>
 
 ## 🚀 Getting Started
 
@@ -115,10 +137,14 @@ npm run dev
 
 ## 📱 Contact Us
 
-- Website: [codingbiceps.com](https://codingbiceps.com)
-- Email: contact@codingbiceps.com
-- WhatsApp: [Connect with us](https://wa.me/yournumber)
-- Book a Free Strategy Call: [Schedule Now](https://codingbiceps.com/contact)
+<div align="center">
+  
+  [![Website](https://img.shields.io/badge/Website-codingbiceps.com-blue?style=for-the-badge)](https://codingbiceps.com)
+  [![WhatsApp](https://img.shields.io/badge/WhatsApp-Connect-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/yournumber)
+  [![Email](https://img.shields.io/badge/Email-contact%40codingbiceps.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@codingbiceps.com)
+  [![Book Call](https://img.shields.io/badge/Book_Call-Schedule_Now-orange?style=for-the-badge)](https://codingbiceps.com/contact)
+  
+</div>
 
 ## 🤝 Join Our Engineering Team
 
@@ -130,4 +156,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<p align="center">Made with ❤️ by CodingBiceps Team</p> 
+<div align="center">
+  
+  ### Connect With Us
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/codingbiceps)
+  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/codingbiceps)
+  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/codingbiceps)
+  
+  Made with ❤️ by CodingBiceps Team
+  
+  [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+  
+</div> 
