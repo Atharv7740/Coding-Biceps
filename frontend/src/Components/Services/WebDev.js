@@ -1,55 +1,55 @@
 import React from 'react';
-import { Search, BarChart2, FileText, Globe, Megaphone, TrendingUp, Target, BookOpen, Link, ChartBar, ShoppingCart, Globe2, Rocket, MessageSquare } from 'lucide-react';
+import { Code, Smartphone, Server, Database, Shield, Zap, Globe, Cpu, Layout, Cloud, Terminal, GitBranch } from 'lucide-react';
 import ScrollToTop from '../ScrollToTop';
 
 const features = [
   {
-    icon: <Search className="w-6 h-6" />,
-    title: "Keyword Strategy",
-    description: "Deep keyword research and gap analysis"
+    icon: <Code className="w-6 h-6" />,
+    title: "Custom Development",
+    description: "Tailored web and mobile applications built to your specifications"
   },
   {
-    icon: <BarChart2 className="w-6 h-6" />,
-    title: "Technical SEO",
-    description: "Comprehensive website optimization"
+    icon: <Smartphone className="w-6 h-6" />,
+    title: "Responsive Design",
+    description: "Seamless user experience across all devices and screen sizes"
   },
   {
-    icon: <BookOpen className="w-6 h-6" />,
-    title: "Content Strategy",
-    description: "Strategic content planning and clusters"
+    icon: <Server className="w-6 h-6" />,
+    title: "Backend Development",
+    description: "Robust server-side architecture and API development"
   },
   {
-    icon: <FileText className="w-6 h-6" />,
-    title: "Content Creation",
-    description: "High-quality content that converts"
+    icon: <Database className="w-6 h-6" />,
+    title: "Database Solutions",
+    description: "Efficient data management and optimization"
   }
 ];
 
 const services = [
-  'Keyword Research & Strategy',
-  'On-Page SEO Optimization',
-  'Content Creation & Marketing',
-  'Technical SEO Audits',
-  'Link Building & PR',
-  'Local SEO & GMB Optimization'
+  'Custom Web Applications',
+  'Mobile App Development',
+  'E-commerce Solutions',
+  'API Development',
+  'Progressive Web Apps',
+  'Cloud Integration'
 ];
 
-const industries = [
-  'eCommerce',
-  'SaaS & Technology',
-  'Professional Services',
-  'Healthcare',
-  'Real Estate',
-  'Education'
+const technologies = [
+  'React & Next.js',
+  'Node.js & Express',
+  'Python & Django',
+  'MongoDB & PostgreSQL',
+  'AWS & Azure',
+  'Docker & Kubernetes'
 ];
 
 const results = [
-  '300% Organic Traffic Growth in 6 Months',
-  '45+ Top 3 Rankings for Target Keywords',
-  '2.5X Lead Generation from Organic Search'
+  '50% Faster Page Load Times',
+  '99.9% Uptime Guarantee',
+  '3X User Engagement Increase'
 ];
 
-const SeoContent = () => {
+const WebDev = () => {
   return (
     <main className="bg-white">
       <ScrollToTop />
@@ -61,47 +61,47 @@ const SeoContent = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-              SEO & Content That{' '}
+              Web & App Development That{' '}
               <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-                Drives Growth
+                Delivers Results
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              Rank Higher. Get Found. Convert More. Full-Stack SEO & Content Marketing That Actually Works.
+              Build Scalable, Secure, and High-Performance Digital Solutions
             </p>
             <p className="text-lg text-gray-400 mb-12">
-              Not just content for content's sake. We create SEO-driven content strategies that build authority and drive conversions.
+              From concept to deployment, we create custom web and mobile applications that drive business growth and deliver exceptional user experiences.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#audit"
+                href="#consultation"
                 className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-3 px-6 rounded-lg font-medium hover:shadow-glow transition-all duration-300 hover:scale-105"
               >
-                Get Free SEO Audit
+                Get Free Consultation
               </a>
               <a
-                href="#contact"
+                href="#portfolio"
                 className="border-2 border-white text-white py-3 px-6 rounded-lg font-medium hover:bg-white/10 transition-all duration-300"
               >
-                View Case Studies
+                View Our Work
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why SEO Section */}
+      {/* Why Web Development Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="bg-gray-50 rounded-xl p-8 shadow-lg">
             <h2 className="text-3xl font-bold mb-6">
-              Why SEO + Content Still{' '}
+              Why Custom Development{' '}
               <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-                Wins
+                Matters
               </span>
             </h2>
             <p className="text-gray-700 text-lg">
-              Search is where your buyers begin—and content is what keeps them engaged. At CodingBiceps, we blend deep keyword research, high-quality content, and technical SEO to build long-term authority and steady growth.
+              In today's digital-first world, having a robust, scalable, and user-friendly web or mobile application is crucial for business success. Our development team combines technical expertise with creative problem-solving to build solutions that drive growth and innovation.
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ const SeoContent = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Our SEO{' '}
+            Our Development{' '}
             <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
               Expertise
             </span>
@@ -134,7 +134,7 @@ const SeoContent = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Our SEO & Content{' '}
+            Our Development{' '}
             <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
               Services
             </span>
@@ -154,19 +154,19 @@ const SeoContent = () => {
         </div>
       </section>
 
-      {/* Industries Section */}
+      {/* Technologies Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Industries We{' '}
+            Technologies We{' '}
             <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-              Excel In
+              Use
             </span>
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
-            {industries.map((industry, index) => (
+            {technologies.map((tech, index) => (
               <span key={index} className="px-6 py-3 bg-white rounded-full text-gray-700 font-medium hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">
-                {industry}
+                {tech}
               </span>
             ))}
           </div>
@@ -200,64 +200,52 @@ const SeoContent = () => {
           <div className="bg-white rounded-xl p-8 shadow-lg">
             <h2 className="text-3xl font-bold mb-6">Featured Case Study</h2>
             <h3 className="text-2xl font-semibold text-blue-600 mb-4">
-              How We Grew a SaaS Blog from 0 to 100K Monthly Visitors
+              How We Built a Scalable E-commerce Platform
             </h3>
             <p className="text-gray-700 text-lg mb-6">
-              Through strategic keyword research, content clusters, and technical SEO optimization, we helped a B2B SaaS company achieve exponential organic growth.
+              Through custom development, cloud integration, and performance optimization, we helped a retail brand achieve 3X sales growth and handle 10X traffic spikes.
             </p>
             <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300">
-              👉 Download Case Study
+              👉 View Case Study
             </button>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section id="audit" className="py-20 bg-gray-900 relative overflow-hidden">
+      <section id="consultation" className="py-20 bg-gray-900 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-cyan-500/20"></div>
         <div className="absolute inset-0 bg-grid-gray-100/5 bg-[size:20px_20px]"></div>
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-              Ready to Grow Your Organic Traffic?
+              Ready to Build Your Digital Solution?
             </h2>
             <p className="text-lg text-gray-300 mb-8">
-              Get a free, no-obligation SEO audit and discover untapped growth opportunities.
+              Get a free consultation and discover how we can help you create a powerful web or mobile application.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
               <input type="text" placeholder="Name" className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400" />
               <input type="email" placeholder="Email" className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400" />
-              <input type="text" placeholder="Website" className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400" />
+              <input type="text" placeholder="Company" className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400" />
               <select className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400">
-                <option value="">Monthly Traffic</option>
-                <option value="0-1000">0-1,000</option>
-                <option value="1000-10000">1,000-10,000</option>
-                <option value="10000+">10,000+</option>
+                <option value="">Project Type</option>
+                <option value="web">Web Application</option>
+                <option value="mobile">Mobile App</option>
+                <option value="ecommerce">E-commerce</option>
+                <option value="api">API Development</option>
+                <option value="other">Other</option>
               </select>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 hover:scale-105">
-                Get My Free SEO Audit
+                Get Free Consultation
               </button>
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition-all duration-300">
-                Schedule a Call
+                View Pricing
               </button>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Lead Magnet */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="bg-gray-50 rounded-xl p-8 shadow-lg text-center">
-            <h2 className="text-2xl font-bold mb-4">FREE Download: "2024 SEO Playbook"</h2>
-            <p className="text-gray-700 mb-6">30 Pages of Proven Growth Tactics</p>
-            <p className="text-gray-600 mb-6">Everything we use to scale our clients to the top of search.</p>
-            <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300">
-              📥 Download the PDF
-            </button>
           </div>
         </div>
       </section>
@@ -265,4 +253,4 @@ const SeoContent = () => {
   );
 };
 
-export default SeoContent; 
+export default WebDev; 

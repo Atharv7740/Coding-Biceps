@@ -1,49 +1,56 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Lightbulb, Code, Search, Target, Users, User } from 'lucide-react';
+import { Lightbulb, Code, Search, Target, Users, User, Share2 } from 'lucide-react';
 
 const services = [
   {
     icon: <Lightbulb className="w-6 h-6" />,
     title: "Strategy & Consulting",
     description: "Data-backed digital strategies tailored to your business goals, market position, and target audience.",
-    path: "/services/strategy-consulting",
+    path: "strategy-consulting",
     color: "blue"
   },
   {
     icon: <Code className="w-6 h-6" />,
     title: "Web & App Development",
     description: "Custom, responsive websites and applications built by experienced engineers for optimal performance.",
-    path: "/services/web-development",
+    path: "web-development",
     color: "cyan"
   },
   {
     icon: <Search className="w-6 h-6" />,
     title: "SEO & Content",
     description: "Strategic SEO implementation and compelling content creation that drives organic traffic and engagement.",
-    path: "/services/seo-content",
+    path: "seo-content",
     color: "indigo"
   },
   {
     icon: <Target className="w-6 h-6" />,
     title: "Paid Ads & Performance",
     description: "Results-focused digital advertising across platforms with transparent reporting and continuous optimization.",
-    path: "/services/paid-ads",
+    path: "paid-ads",
     color: "blue"
+  },
+  {
+    icon: <Share2 className="w-6 h-6" />,
+    title: "Social Media Marketing",
+    description: "Viral content creation and strategic social media management that turns followers into customers.",
+    path: "social-media",
+    color: "cyan"
   },
   {
     icon: <Users className="w-6 h-6" />,
     title: "Engineering Mentorship",
     description: "Expert guidance and training for your tech team from senior developers and engineers.",
-    path: "/services/engineering-mentorship",
-    color: "cyan"
+    path: "engineering-mentorship",
+    color: "indigo"
   },
   {
     icon: <User className="w-6 h-6" />,
     title: "Automation & CRM",
     description: "Custom workflow automation solutions and CRM implementation to streamline your business processes.",
-    path: "/services/automation-crm",
-    color: "indigo"
+    path: "automation-crm",
+    color: "blue"
   }
 ];
 

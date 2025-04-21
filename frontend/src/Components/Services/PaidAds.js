@@ -1,5 +1,6 @@
 import React from 'react';
-import { Target, BarChart2, Users, Zap, PieChart, Award } from 'lucide-react';
+import { Target, BarChart2, Users, Zap, PieChart, Award, Search, MessageSquare, TrendingUp, Globe, Facebook, Instagram, Youtube, Linkedin } from 'lucide-react';
+import ScrollToTop from '../ScrollToTop';
 
 const PaidAds = () => {
   const features = [
@@ -28,30 +29,27 @@ const PaidAds = () => {
   const platforms = [
     {
       title: 'Google Search & Display Ads',
-      icon: <Target className="w-6 h-6" />,
-      color: 'blue'
+      icon: <Search className="w-6 h-6" />
     },
     {
       title: 'Facebook & Instagram Ads',
-      icon: <Users className="w-6 h-6" />,
-      color: 'cyan'
+      icon: <Facebook className="w-6 h-6" />
     },
     {
       title: 'LinkedIn B2B Lead Gen',
-      icon: <BarChart2 className="w-6 h-6" />,
-      color: 'blue'
+      icon: <Linkedin className="w-6 h-6" />
     },
     {
       title: 'YouTube Video Campaigns',
-      icon: <Zap className="w-6 h-6" />,
-      color: 'cyan'
+      icon: <Youtube className="w-6 h-6" />
     }
   ];
 
   return (
     <main className="bg-white">
+      <ScrollToTop />
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-gray-900 overflow-hidden">
+      <section className="relative min-h-screen pt-32 pb-20 bg-gray-900 overflow-hidden flex items-center">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-cyan-500/20"></div>
         <div className="absolute inset-0 bg-grid-gray-100/5 bg-[size:20px_20px]"></div>
         
@@ -72,13 +70,13 @@ const PaidAds = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#audit"
-                className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-3 px-6 rounded-lg font-medium hover:shadow-glow transition-all duration-300 hover:scale-105"
+                className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-4 px-8 rounded-lg font-medium hover:shadow-glow transition-all duration-300 hover:scale-105"
               >
                 Request Free Audit
               </a>
               <a
                 href="#contact"
-                className="border-2 border-white text-white py-3 px-6 rounded-lg font-medium hover:bg-white/10 transition-all duration-300"
+                className="border-2 border-white text-white py-4 px-8 rounded-lg font-medium hover:bg-white/10 transition-all duration-300"
               >
                 Book Strategy Call
               </a>
@@ -98,8 +96,8 @@ const PaidAds = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {platforms.map((platform, index) => (
-              <div key={index} className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300 group">
-                <div className={`w-12 h-12 rounded-lg bg-${platform.color}-600 text-white flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
+              <div key={index} className="bg-gray-50 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 group">
+                <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-blue-600 to-cyan-500 text-white flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                   {platform.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{platform.title}</h3>

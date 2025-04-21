@@ -214,25 +214,31 @@ const ServiceCard = ({ icon, title, description, color }) => {
     indigo: 'border-indigo-500',
   };
 
-  // Determine if this is the Paid Ads card
-  const isPaidAdsCard = title === "Paid Ads & Performance";
-  const linkHref = isPaidAdsCard ? "/paid-ads" : "#";
+  // Map service titles to their respective paths
+  const servicePaths = {
+    "Strategy & Consulting": "/services/strategy-consulting",
+    "Web & App Development": "/services/web-development",
+    "SEO & Content": "/services/seo-content",
+    "Paid Ads & Performance": "/services/paid-ads",
+    "Engineering Mentorship": "/services/engineering-mentorship",
+    "Automation & CRM": "/services/automation-crm"
+  };
 
   return (
-    <div className={`bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow p-6 border-t-4 ${borderColors[color]}`}>
-      <div className={`w-12 h-12 ${gradientColors[color]} text-white rounded-lg flex items-center justify-center mb-6`}>
+    <a 
+      href={servicePaths[title]}
+      className={`block bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 border-t-4 ${borderColors[color]} group`}
+    >
+      <div className={`w-12 h-12 ${gradientColors[color]} text-white rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
         {icon}
       </div>
-      <h3 className="text-xl font-bold mb-4 text-gray-900">{title}</h3>
+      <h3 className="text-xl font-bold mb-4 text-gray-900 group-hover:text-blue-600 transition-colors">{title}</h3>
       <p className="text-gray-600 mb-4">{description}</p>
-      <a 
-        href={linkHref}
-        className="text-blue-600 font-medium flex items-center gap-2 group"
-      >
+      <div className="text-blue-600 font-medium flex items-center gap-2">
         Learn more
         <span className="transition-transform group-hover:translate-x-1">→</span>
-      </a>
-    </div>
+      </div>
+    </a>
   );
 };
 

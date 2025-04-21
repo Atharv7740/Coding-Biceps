@@ -1,55 +1,69 @@
 import React from 'react';
-import { Search, BarChart2, FileText, Globe, Megaphone, TrendingUp, Target, BookOpen, Link, ChartBar, ShoppingCart, Globe2, Rocket, MessageSquare } from 'lucide-react';
+import { Instagram, Youtube, Twitter, Facebook, Linkedin, TrendingUp, Users, MessageSquare, BarChart2, Zap, Video, Hash, Heart, Share2 } from 'lucide-react';
 import ScrollToTop from '../ScrollToTop';
 
 const features = [
   {
-    icon: <Search className="w-6 h-6" />,
-    title: "Keyword Strategy",
-    description: "Deep keyword research and gap analysis"
+    icon: <Video className="w-6 h-6" />,
+    title: "Viral Content Creation",
+    description: "Reels, Shorts & Memes that catch fire"
   },
   {
-    icon: <BarChart2 className="w-6 h-6" />,
-    title: "Technical SEO",
-    description: "Comprehensive website optimization"
+    icon: <TrendingUp className="w-6 h-6" />,
+    title: "Trend Hijacking",
+    description: "Real-time engagement with trending topics"
   },
   {
-    icon: <BookOpen className="w-6 h-6" />,
-    title: "Content Strategy",
-    description: "Strategic content planning and clusters"
+    icon: <Users className="w-6 h-6" />,
+    title: "Community Building",
+    description: "Turn followers into loyal customers"
   },
   {
-    icon: <FileText className="w-6 h-6" />,
-    title: "Content Creation",
-    description: "High-quality content that converts"
+    icon: <MessageSquare className="w-6 h-6" />,
+    title: "Engagement Management",
+    description: "Active community interaction & growth"
   }
 ];
 
 const services = [
-  'Keyword Research & Strategy',
-  'On-Page SEO Optimization',
-  'Content Creation & Marketing',
-  'Technical SEO Audits',
-  'Link Building & PR',
-  'Local SEO & GMB Optimization'
+  'Full Account Setup & Branding',
+  'Monthly Content Calendar + Trend Planning',
+  'Reel + Story + Post Creation',
+  'Hashtag & Caption Strategy',
+  'Platform Optimization & Insights Reports',
+  'Comment & DM Engagement Handling'
 ];
 
-const industries = [
-  'eCommerce',
-  'SaaS & Technology',
-  'Professional Services',
-  'Healthcare',
-  'Real Estate',
-  'Education'
+const platforms = [
+  {
+    name: 'Instagram',
+    icon: <Instagram className="w-6 h-6" />
+  },
+  {
+    name: 'YouTube',
+    icon: <Youtube className="w-6 h-6" />
+  },
+  {
+    name: 'LinkedIn',
+    icon: <Linkedin className="w-6 h-6" />
+  },
+  {
+    name: 'X (Twitter)',
+    icon: <Twitter className="w-6 h-6" />
+  },
+  {
+    name: 'Facebook',
+    icon: <Facebook className="w-6 h-6" />
+  }
 ];
 
 const results = [
-  '300% Organic Traffic Growth in 6 Months',
-  '45+ Top 3 Rankings for Target Keywords',
-  '2.5X Lead Generation from Organic Search'
+  '+180K Organic Reach in 7 days',
+  '1.2M Views on Viral Reel Series',
+  '3X Lead Generation in 30 Days'
 ];
 
-const SeoContent = () => {
+const SocialMedia = () => {
   return (
     <main className="bg-white">
       <ScrollToTop />
@@ -61,47 +75,47 @@ const SeoContent = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-              SEO & Content That{' '}
+              Go Viral or{' '}
               <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-                Drives Growth
+                Go Home
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              Rank Higher. Get Found. Convert More. Full-Stack SEO & Content Marketing That Actually Works.
+              We Don't Just Manage Social Media. We Make It Explode.
             </p>
             <p className="text-lg text-gray-400 mb-12">
-              Not just content for content's sake. We create SEO-driven content strategies that build authority and drive conversions.
+              In a world ruled by reels, trends, and thumb-stopping content — Brands that don't go viral, get forgotten. At Coding Biceps, we engineer virality with creative that spreads like wildfire.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#audit"
-                className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-3 px-6 rounded-lg font-medium hover:shadow-glow transition-all duration-300 hover:scale-105"
+                className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-4 px-8 rounded-lg font-medium hover:shadow-glow transition-all duration-300 hover:scale-105"
               >
-                Get Free SEO Audit
+                Book Free Social Audit
               </a>
               <a
-                href="#contact"
-                className="border-2 border-white text-white py-3 px-6 rounded-lg font-medium hover:bg-white/10 transition-all duration-300"
+                href="#case-studies"
+                className="border-2 border-white text-white py-4 px-8 rounded-lg font-medium hover:bg-white/10 transition-all duration-300"
               >
-                View Case Studies
+                View Success Stories
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why SEO Section */}
+      {/* Why Social Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="bg-gray-50 rounded-xl p-8 shadow-lg">
             <h2 className="text-3xl font-bold mb-6">
-              Why SEO + Content Still{' '}
+              Why Social Media{' '}
               <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-                Wins
+                Matters
               </span>
             </h2>
             <p className="text-gray-700 text-lg">
-              Search is where your buyers begin—and content is what keeps them engaged. At CodingBiceps, we blend deep keyword research, high-quality content, and technical SEO to build long-term authority and steady growth.
+              In today's digital landscape, social media isn't just about posting content—it's about creating moments that capture attention and drive action. We blend trend-driven creativity with data-fueled strategy to make your brand impossible to ignore.
             </p>
           </div>
         </div>
@@ -111,7 +125,7 @@ const SeoContent = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Our SEO{' '}
+            Our Social Media{' '}
             <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
               Expertise
             </span>
@@ -134,9 +148,9 @@ const SeoContent = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Our SEO & Content{' '}
+            What You{' '}
             <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-              Services
+              Get
             </span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -154,20 +168,21 @@ const SeoContent = () => {
         </div>
       </section>
 
-      {/* Industries Section */}
+      {/* Platforms Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
-            Industries We{' '}
+            Platforms We{' '}
             <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-              Excel In
+              Dominate
             </span>
           </h2>
-          <div className="flex flex-wrap justify-center gap-4">
-            {industries.map((industry, index) => (
-              <span key={index} className="px-6 py-3 bg-white rounded-full text-gray-700 font-medium hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">
-                {industry}
-              </span>
+          <div className="flex flex-wrap justify-center gap-6">
+            {platforms.map((platform, index) => (
+              <div key={index} className="flex items-center gap-2 px-6 py-3 bg-white rounded-full text-gray-700 font-medium hover:bg-blue-50 hover:text-blue-600 transition-colors duration-300">
+                {platform.icon}
+                <span>{platform.name}</span>
+              </div>
             ))}
           </div>
         </div>
@@ -198,15 +213,15 @@ const SeoContent = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="bg-white rounded-xl p-8 shadow-lg">
-            <h2 className="text-3xl font-bold mb-6">Featured Case Study</h2>
+            <h2 className="text-3xl font-bold mb-6">Featured Success Story</h2>
             <h3 className="text-2xl font-semibold text-blue-600 mb-4">
-              How We Grew a SaaS Blog from 0 to 100K Monthly Visitors
+              How We Generated 1.2M Views for a Local Brand
             </h3>
             <p className="text-gray-700 text-lg mb-6">
-              Through strategic keyword research, content clusters, and technical SEO optimization, we helped a B2B SaaS company achieve exponential organic growth.
+              Through strategic content planning and trend hijacking, we helped a local brand go viral with a series of reels that generated massive engagement and real business results.
             </p>
             <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300">
-              👉 Download Case Study
+              👉 View Success Story
             </button>
           </div>
         </div>
@@ -220,44 +235,34 @@ const SeoContent = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-              Ready to Grow Your Organic Traffic?
+              Let's Make You the Brand Everyone Talks About
             </h2>
-            <p className="text-lg text-gray-300 mb-8">
-              Get a free, no-obligation SEO audit and discover untapped growth opportunities.
+            <p className="text-lg text-gray-300 mb-4">
+              Only 3 Onboardings Per Month. Reserve Before It's Gone.
+            </p>
+            <p className="text-sm text-cyan-400 mb-8">
+              Limited Slots Available
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
               <input type="text" placeholder="Name" className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400" />
               <input type="email" placeholder="Email" className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400" />
-              <input type="text" placeholder="Website" className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400" />
+              <input type="text" placeholder="Brand/Company" className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400" />
               <select className="bg-navy-800/50 border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400">
-                <option value="">Monthly Traffic</option>
+                <option value="">Current Social Following</option>
                 <option value="0-1000">0-1,000</option>
                 <option value="1000-10000">1,000-10,000</option>
-                <option value="10000+">10,000+</option>
+                <option value="10000-50000">10,000-50,000</option>
+                <option value="50000+">50,000+</option>
               </select>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300 hover:scale-105">
-                Get My Free SEO Audit
+                Get Free Social Audit
               </button>
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition-all duration-300">
-                Schedule a Call
+                View Pricing
               </button>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Lead Magnet */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="bg-gray-50 rounded-xl p-8 shadow-lg text-center">
-            <h2 className="text-2xl font-bold mb-4">FREE Download: "2024 SEO Playbook"</h2>
-            <p className="text-gray-700 mb-6">30 Pages of Proven Growth Tactics</p>
-            <p className="text-gray-600 mb-6">Everything we use to scale our clients to the top of search.</p>
-            <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-400/20 transition-all duration-300">
-              📥 Download the PDF
-            </button>
           </div>
         </div>
       </section>
@@ -265,4 +270,4 @@ const SeoContent = () => {
   );
 };
 
-export default SeoContent; 
+export default SocialMedia; 
